@@ -1,0 +1,51 @@
+@media screen and (max-width: 600px) {
+  .wallpaper {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #questioner-new
+    .home-questioner-tile-container
+    .flex-container
+    .item
+    .step-icon {
+    top: 12%;
+  }
+  #home .new-footer-banner .new-footer-banner-contact {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 909px) {
+  #home .claims-process .infographic .item {
+    width: 25%;
+    height: 400px !important;
+  }
+  #home .claims-process .infographic {
+    left: 50%;
+    transform: translate(-52%, 0);
+  }
+  #home .claims-process .infographic .item .content-0 {
+    top: 0;
+  }
+}
+
+@media only screen and (min-width: 910px) and (max-width: 1024px) {
+  #home .claims-process .infographic {
+    width: 95% !important;
+    left: 50%;
+    transform: translate(-55%, 0);
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1050px) {
+  #home
+    .claims-process
+    .infographic
+    .item
+    .content
+    .align
+    > .item-content
+    p.subheading {
+    height: auto !important;
+  }
+}
